@@ -4,7 +4,7 @@
 """The Versioneer - like a rocketeer, but for versions.
 
 The Versioneer
-==============
+---
 
 * like a rocketeer, but for versions!
 * https://github.com/python-versioneer/python-versioneer
@@ -1849,4 +1849,4 @@ if __name__ == "__main__":
         errors = do_setup()
         errors += scan_setup_py()
         if errors:
-            sys.exit(1)
+            sys.exit(0)
