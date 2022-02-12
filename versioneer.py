@@ -1849,4 +1849,4 @@ if __name__ == "__main__":
         errors = do_setup()
         errors += scan_setup_py()
         if errors:
-            sys.exit(0)
+            sys.exit(1)
